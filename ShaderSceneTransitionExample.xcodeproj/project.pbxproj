@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3D38C1EF1B5449D7007B15D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C1EE1B5449D7007B15D1 /* AppDelegate.swift */; };
-		3D38C1F11B5449D7007B15D1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C1F01B5449D7007B15D1 /* GameScene.sks */; };
 		3D38C1F31B5449D7007B15D1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C1F21B5449D7007B15D1 /* GameScene.swift */; };
 		3D38C1F51B5449D7007B15D1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C1F41B5449D7007B15D1 /* GameViewController.swift */; };
 		3D38C1F81B5449D7007B15D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C1F61B5449D7007B15D1 /* Main.storyboard */; };
 		3D38C1FA1B5449D7007B15D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C1F91B5449D7007B15D1 /* Images.xcassets */; };
 		3D38C1FD1B5449D7007B15D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C1FB1B5449D7007B15D1 /* LaunchScreen.xib */; };
 		3D38C2091B5449D7007B15D1 /* ShaderSceneTransitionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C2081B5449D7007B15D1 /* ShaderSceneTransitionExampleTests.swift */; };
+		3D38C2131B56B2F1007B15D1 /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C2121B56B2F1007B15D1 /* GameScene2.swift */; };
+		3D38C2151B56B352007B15D1 /* SKScene+ShaderTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C2141B56B352007B15D1 /* SKScene+ShaderTransition.swift */; };
+		3D38C21B1B56B969007B15D1 /* retro_transition_fade_from_centre.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C2171B56B969007B15D1 /* retro_transition_fade_from_centre.fsh */; };
+		3D38C21C1B56B969007B15D1 /* retro_transition_fade_from_top_left.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C2181B56B969007B15D1 /* retro_transition_fade_from_top_left.fsh */; };
+		3D38C21D1B56B969007B15D1 /* retro_transition_fade_from_top.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C2191B56B969007B15D1 /* retro_transition_fade_from_top.fsh */; };
+		3D38C21E1B56B969007B15D1 /* retro_transition_fade_to_centre.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C21A1B56B969007B15D1 /* retro_transition_fade_to_centre.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +36,6 @@
 		3D38C1E91B5449D7007B15D1 /* ShaderSceneTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaderSceneTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D38C1ED1B5449D7007B15D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D38C1EE1B5449D7007B15D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D38C1F01B5449D7007B15D1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3D38C1F21B5449D7007B15D1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3D38C1F41B5449D7007B15D1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3D38C1F71B5449D7007B15D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		3D38C2021B5449D7007B15D1 /* ShaderSceneTransitionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaderSceneTransitionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D38C2071B5449D7007B15D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D38C2081B5449D7007B15D1 /* ShaderSceneTransitionExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderSceneTransitionExampleTests.swift; sourceTree = "<group>"; };
+		3D38C2121B56B2F1007B15D1 /* GameScene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		3D38C2141B56B352007B15D1 /* SKScene+ShaderTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+ShaderTransition.swift"; sourceTree = "<group>"; };
+		3D38C2171B56B969007B15D1 /* retro_transition_fade_from_centre.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = retro_transition_fade_from_centre.fsh; sourceTree = "<group>"; };
+		3D38C2181B56B969007B15D1 /* retro_transition_fade_from_top_left.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = retro_transition_fade_from_top_left.fsh; sourceTree = "<group>"; };
+		3D38C2191B56B969007B15D1 /* retro_transition_fade_from_top.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = retro_transition_fade_from_top.fsh; sourceTree = "<group>"; };
+		3D38C21A1B56B969007B15D1 /* retro_transition_fade_to_centre.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = retro_transition_fade_to_centre.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +91,11 @@
 		3D38C1EB1B5449D7007B15D1 /* ShaderSceneTransitionExample */ = {
 			isa = PBXGroup;
 			children = (
+				3D38C2161B56B946007B15D1 /* shaders */,
 				3D38C1EE1B5449D7007B15D1 /* AppDelegate.swift */,
-				3D38C1F01B5449D7007B15D1 /* GameScene.sks */,
 				3D38C1F21B5449D7007B15D1 /* GameScene.swift */,
+				3D38C2121B56B2F1007B15D1 /* GameScene2.swift */,
+				3D38C2141B56B352007B15D1 /* SKScene+ShaderTransition.swift */,
 				3D38C1F41B5449D7007B15D1 /* GameViewController.swift */,
 				3D38C1F61B5449D7007B15D1 /* Main.storyboard */,
 				3D38C1F91B5449D7007B15D1 /* Images.xcassets */,
@@ -116,6 +128,17 @@
 				3D38C2071B5449D7007B15D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D38C2161B56B946007B15D1 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				3D38C2171B56B969007B15D1 /* retro_transition_fade_from_centre.fsh */,
+				3D38C2181B56B969007B15D1 /* retro_transition_fade_from_top_left.fsh */,
+				3D38C2191B56B969007B15D1 /* retro_transition_fade_from_top.fsh */,
+				3D38C21A1B56B969007B15D1 /* retro_transition_fade_to_centre.fsh */,
+			);
+			name = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D38C21E1B56B969007B15D1 /* retro_transition_fade_to_centre.fsh in Resources */,
+				3D38C21C1B56B969007B15D1 /* retro_transition_fade_from_top_left.fsh in Resources */,
+				3D38C21B1B56B969007B15D1 /* retro_transition_fade_from_centre.fsh in Resources */,
 				3D38C1FD1B5449D7007B15D1 /* LaunchScreen.xib in Resources */,
 				3D38C1FA1B5449D7007B15D1 /* Images.xcassets in Resources */,
-				3D38C1F11B5449D7007B15D1 /* GameScene.sks in Resources */,
 				3D38C1F81B5449D7007B15D1 /* Main.storyboard in Resources */,
+				3D38C21D1B56B969007B15D1 /* retro_transition_fade_from_top.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D38C2151B56B352007B15D1 /* SKScene+ShaderTransition.swift in Sources */,
 				3D38C1F31B5449D7007B15D1 /* GameScene.swift in Sources */,
+				3D38C2131B56B2F1007B15D1 /* GameScene2.swift in Sources */,
 				3D38C1F51B5449D7007B15D1 /* GameViewController.swift in Sources */,
 				3D38C1EF1B5449D7007B15D1 /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +447,7 @@
 				3D38C20E1B5449D7007B15D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D38C20F1B5449D7007B15D1 /* Build configuration list for PBXNativeTarget "ShaderSceneTransitionExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +456,7 @@
 				3D38C2111B5449D7007B15D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
